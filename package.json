@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-project-2",
+  "version": "1.0.0",
+  "description": "This is my Portfolio Project For Web-Dev-Fundamentals",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "Ryan Girard",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
