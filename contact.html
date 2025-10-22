@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact Me</title>
+</head>
+
+<body class="container-fluid">
+
+    <header>
+
+    </header>
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="#about">About</a>
+                    <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar" aria-label="breadcrumb">
+        <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row row-content">
+            <div class="col">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <form>
+                <div class="row my-3">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="firstName" name="firstName"
+                            placeholder="First Name">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="lastName" class="col md-2 col-form-label">Last Name</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="lastName" name="lastName" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="areaCode" class="col-md-2 col-form-label">Telephone</label>
+                    <div class="col-5 col-md-3">
+                        <input class="form-control" type="tel" id="areaCode" name="areaCode" placeholder="Area Code">
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="tel" name="telNum" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="email" class="col-md-2 col-form-label">E-mail</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="email" id="email" name="email" placeholder="E-mail Address">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col offset-md-2">
+                        May I contact you?
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="contactYes" name="contactRadios"
+                                value="yes">
+                            <label class="form-check-label" for="contactYes">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="contactNo" name="contactRadios" value="no">
+                            <label class="form-check-label" for="contactNo">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="feedback" class="col-md-2 col=form-label">What can I help you with?</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-10 offset-md-2">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container bg-body-tertiary">
+            <div class="row row-content align-items-center">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="https://instagram.com/ryangirardmusic" target="_blank"><i
+                            class="fa-brands fa-instagram fa-xl" style="color:#e94d10"></i></a>
+                    <a href="https://facebook.com/ryan.girard.503" target="_blank"><i
+                            class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a href="https://github.com/zamnweskr" target="_blank"><i class="fa-brands fa-github fa-xl"
+                            style="color: #000000"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fa-solid fa-phone fa-lg text-primary"></i> : 623-414-8423 <br />
+                    <i class="fa-solid fa-envelope fa-lg text-primary"></i> : rmg9923@gmail.com
+                </div>
+            </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
