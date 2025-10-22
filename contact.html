@@ -22,7 +22,7 @@
 
     </header>
 
-    <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary mt-2">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
@@ -47,6 +47,23 @@
             </ol>
         </div>
     </nav>
+
+    <div class="modal fade" id="oopsModal" tabindex="-1" aria-labelledby="oopsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="oopsModalLabel">Oops!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>I'm still working on this feature right now, stay tuned!</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <main class="container">
         <div class="row row-content">
@@ -106,19 +123,19 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-10 offset-md-2">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#oopsModal">Submit</button>
                     </div>
                 </div>
             </form>
         </div>
     </main>
     <footer>
-        <div class="container bg-body-tertiary">
+        <div class="container-fluid bg-body-tertiary mb-3">
             <div class="row row-content align-items-center">
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>

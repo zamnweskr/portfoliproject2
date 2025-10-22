@@ -21,6 +21,10 @@ h3 {
 
 .row-content {
     padding: 30px 0;
-    min-height: 150px;
+    min-height: 125px;
     border-bottom: 2px ridge;
+}
+
+.social-buttons{
+    margin-bottom: 10px;
 }
