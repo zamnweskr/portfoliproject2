@@ -1,5 +1,6 @@
 body {
     font-family: "Urbanist", sans-serif;
+    height: 100vh;
 }
 
 .navbar-toggler {
@@ -27,4 +28,10 @@ h3 {
 
 .social-buttons{
     margin-bottom: 10px;
+}
+
+@media (width <= 576px) {
+    .about-text {
+        text-align: center;
+    }
 }
