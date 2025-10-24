@@ -39,10 +39,11 @@ h3 {
         justify-content: space-around;
     }
 
-    div[class=media] {
-        text-align: center;
-        margin-top: 10px;
+    .about-list {
+        padding-left: 70px;
+        margin-top: 15px;
     }
+
 }
 
 .about-list .media {
@@ -52,12 +53,12 @@ h3 {
 .about-list label {
     color: #20247b;
     font-weight: 600;
+    font-size: 20px;
     width: 88px;
-    margin: 0;
     position: relative;
 }
 
 .about-list p {
-    margin: 0;
-    font-size: 15px;
+    margin-left: 60px;
+    font-size: 20px;
 }
