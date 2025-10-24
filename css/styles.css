@@ -26,12 +26,38 @@ h3 {
     border-bottom: 2px ridge;
 }
 
-.social-buttons{
+.social-buttons {
     margin-bottom: 10px;
 }
 
-@media (width <= 576px) {
+@media (width <=576px) {
     .about-text {
         text-align: center;
     }
+
+    .aboutMe-pic {
+        justify-content: space-around;
+    }
+
+    div[class=media] {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.about-list .media {
+    padding: 5px;
+}
+
+.about-list label {
+    color: #20247b;
+    font-weight: 600;
+    width: 88px;
+    margin: 0;
+    position: relative;
+}
+
+.about-list p {
+    margin: 0;
+    font-size: 15px;
 }
