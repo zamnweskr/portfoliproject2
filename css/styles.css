@@ -34,6 +34,12 @@ div[class=tab-content] {
     margin-top: 45px;
 }
 
+/*Scrollable tab panes, not sure if I am in love with it or not*/
+.tab-content .tab-pane {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
 .aboutMe-pic {
     padding-right: 10px;
     margin-top: 4px;
