@@ -30,24 +30,18 @@ h3 {
     margin-bottom: 10px;
 }
 
-.about-list .media {
-    padding: 0px;
-}
-
-.about-list label {
-    color: #20247b;
-    font-weight: 600;
-    font-size: 20px;
-    width: 88px;
-    position: relative;
-}
-
-.about-list p {
-    font-size: 20px;
+div[class=tab-content] {
+    margin-top: 45px;
 }
 
 .aboutMe-pic {
     padding-right: 10px;
+    margin-top: 4px;
+}
+
+.music-pic {
+    padding-left: 10px;
+    margin-top: 5px;
 }
 
 .aboutMe-text {
@@ -57,11 +51,6 @@ h3 {
 
 .no-line {
     border-bottom: none;
-}
-
-img[class=float-start]>h1 {
-    margin-top: 0;
-
 }
 
 @media (width <=576px) {
