@@ -34,12 +34,6 @@ div[class=tab-content] {
     margin-top: 45px;
 }
 
-/*Scrollable tab panes, not sure if I am in love with it or not*/
-.tab-content .tab-pane {
-    max-height: 300px;
-    overflow-y: auto;
-}
-
 .aboutMe-pic {
     padding-right: 10px;
     margin-top: 4px;
@@ -47,6 +41,11 @@ div[class=tab-content] {
 
 .music-pic {
     padding-left: 10px;
+    margin-top: 5px;
+}
+
+.food-pic {
+    padding-right: 10px;
     margin-top: 5px;
 }
 
@@ -67,6 +66,10 @@ div[class=tab-content] {
     .aboutMe-pic {
         justify-content: space-around;
     }
+/*Scrollable tab panes, not sure if I am in love with it or not*/
+    .tab-content .tab-pane {
+    max-height: 300px;
+    overflow-y: auto;
 
 }
 
