@@ -70,6 +70,7 @@ div[class=tab-content] {
     .tab-content .tab-pane {
     max-height: 300px;
     overflow-y: auto;
+    }
 
 }
 
