@@ -66,16 +66,23 @@ div[class=tab-content] {
     .aboutMe-pic {
         justify-content: space-around;
     }
-/*Scrollable tab panes, not sure if I am in love with it or not*/
+/*Scrollable tab panes*/
     .tab-content .tab-pane {
     max-height: 300px;
     overflow-y: auto;
     }
 
+    .tabPic-left {
+        margin-left: 18px;
+    }
+
+    .tabPic-right {
+        margin-right: 18px;
+        margin-bottom: 12px;
+    }
+
 }
 
 @media (width >=576px) {
-    .aboutMe-pic {
-        width: 16rem;
-    }
+
 }
