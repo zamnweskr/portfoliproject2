@@ -58,6 +58,12 @@ div[class=tab-content] {
     border-bottom: none;
 }
 
+/*Scrollable tab panes*/
+    .tab-content .tab-pane {
+    max-height: 300px;
+    overflow-y: auto;
+    }
+
 @media (width <=576px) {
     .about-text {
         text-align: center;
@@ -73,16 +79,24 @@ div[class=tab-content] {
     }
 
     .tabPic-left {
-        margin-left: 18px;
+        margin-left: 40px;
+        margin-top: 5px
     }
 
     .tabPic-right {
-        margin-right: 18px;
-        margin-bottom: 12px;
+        margin-left: 40px;
+        margin-top: 5px;
     }
 
 }
 
-@media (width >=576px) {
+@media (min-width: 576px) and (max-width: 992px) {
+    .tabPic-left {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
 
+    .tabPic-right {
+        margin-top: 10px;
+    }
 }
