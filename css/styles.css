@@ -62,6 +62,7 @@ div[class=tab-content] {
     .tab-content .tab-pane {
     max-height: 300px;
     overflow-y: auto;
+    overflow-x: hidden;
     }
 
 @media (width <=576px) {
@@ -72,31 +73,16 @@ div[class=tab-content] {
     .aboutMe-pic {
         justify-content: space-around;
     }
-/*Scrollable tab panes*/
-    .tab-content .tab-pane {
-    max-height: 300px;
-    overflow-y: auto;
-    }
 
-    .tabPic-left {
-        margin-left: 40px;
-        margin-top: 5px
-    }
-
-    .tabPic-right {
-        margin-left: 40px;
-        margin-top: 5px;
+    .myLife-pic {
+        margin-top: 8px;
+        margin-bottom: 0px;
     }
 
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
-    .tabPic-left {
-        margin-top: 10px;
-        margin-left: 30px;
-    }
-
-    .tabPic-right {
-        margin-top: 10px;
+    p[class=aboutMe-text] {
+        margin-top: 30px;
     }
 }
