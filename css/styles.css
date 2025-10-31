@@ -1,6 +1,18 @@
 body {
     font-family: "Urbanist", sans-serif;
     height: 100vh;
+    background-color: #f3f0eb;
+}
+
+nav {
+    background-color: #f3f0eb;
+}
+.navbar {
+    background-color: #a3c77042;
+}
+
+nav[class=navbar] {
+    background-color: #f3f0eb;
 }
 
 .navbar-toggler {
@@ -9,6 +21,20 @@ body {
 
 div>ol[class=breadcrumb] {
     margin-left: 8px;
+}
+
+div>button[class=nav-link] {
+    background-color: #edba8380;
+    color: black;
+}
+
+footer {
+    background-color: #a3c77042;
+}
+
+
+strong {
+    color: #58895d;
 }
 
 h1 {
@@ -28,6 +54,10 @@ h3 {
 
 .social-buttons {
     margin-bottom: 10px;
+}
+
+.card-body {
+    background-color: #a3c77042;
 }
 
 div[class=tab-content] {
