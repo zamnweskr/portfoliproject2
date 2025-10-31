@@ -81,16 +81,25 @@ div[class=tab-content] {
 .aboutMe-pic {
     padding-right: 10px;
     margin-top: 4px;
+    height: 16rem;
 }
 
 .music-pic {
     padding-left: 10px;
     margin-top: 5px;
+    height: 16rem;
 }
 
 .food-pic {
     padding-right: 10px;
     margin-top: 5px;
+    height: 16rem;
+}
+
+.hobbies-pic {
+    padding-left: 10px;
+    margin-top: 5px;
+    height: 16rem;
 }
 
 .aboutMe-text {
@@ -109,6 +118,8 @@ div[class=tab-content] {
     overflow-x: hidden;
     }
 
+
+
 @media (width <=576px) {
     .about-text {
         text-align: center;
@@ -118,9 +129,10 @@ div[class=tab-content] {
         justify-content: space-around;
     }
 
-    .myLife-pic {
+    .aboutMe-tabPic {
         margin-top: 8px;
-        margin-bottom: 0px;
+        width: 100%;
+        max-width: 24rem;
     }
 
 }
@@ -129,4 +141,22 @@ div[class=tab-content] {
     p[class=aboutMe-text] {
         margin-top: 30px;
     }
+
+    .aboutMe-tabPic {
+        margin-top: 14px;
+    }
+}
+
+@media (width >=992px) {
+    .aboutMe-tabPic {
+        margin-top: 8px;
+        margin-bottom: 0px;
+        width: 100%;
+        max-width: 24rem;
+    }
+
+        p[class=aboutMe-text] {
+        margin-top: 60px;
+    }
+
 }
