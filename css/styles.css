@@ -23,16 +23,30 @@ div>ol[class=breadcrumb] {
     margin-left: 8px;
 }
 
-div>button[class=nav-link] {
-    background-color: #edba8380;
+.nav-tabs .nav-link {
+    background-color: #f3f0eb;
     color: black;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #edba8380;
 }
 
 footer {
     background-color: #a3c77042;
 }
 
+.modal-header {
+    background-color: #a3c77042;
+}
 
+.modal-body {
+    background-color: #f3f0eb;
+}
+
+.modal-footer {
+    background-color: #a3c77042;
+}
 strong {
     color: #58895d;
 }
@@ -41,6 +55,10 @@ h1 {
     margin-bottom: 20px;
     font-size: 45px;
 }
+
+/* h2 {
+    color:#58895d;
+} */
 
 h3 {
     margin-bottom: 10px;
