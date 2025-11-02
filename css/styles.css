@@ -78,33 +78,21 @@ div[class=tab-content] {
     margin-top: 45px;
 }
 
-.aboutMe-pic {
-    padding-right: 10px;
-    margin-top: 4px;
-    height: 16rem;
-}
-
-.music-pic {
-    padding-left: 10px;
-    margin-top: 5px;
-    height: 16rem;
-}
-
-.food-pic {
-    padding-right: 10px;
-    margin-top: 5px;
-    height: 16rem;
-}
-
+.aboutMe-pic,
+.music-pic,
+.food-pic,
 .hobbies-pic {
-    padding-left: 10px;
     margin-top: 5px;
-    height: 16rem;
+    width: 14rem;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .aboutMe-text {
     line-height: 1.2;
     text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .no-line {
@@ -131,8 +119,6 @@ div[class=tab-content] {
     .aboutMe-tabPic {
         margin-top: 8px;
     }
-
-
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
