@@ -142,6 +142,7 @@ div[class=tab-content] {
         p[class=aboutMe-text] {
         display: flex;
         align-items: center;
+        margin-top: 50px;
     }
 
 }
